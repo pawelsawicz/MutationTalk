@@ -46,7 +46,9 @@
     <Compile Include="ArithmeticsOperatorsTests.cs" />
     <Compile Include="BooleanOperatorsTests.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="GiftAidCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleIfTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

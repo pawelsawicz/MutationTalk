@@ -41,9 +41,10 @@
   <ItemGroup>
     <Compile Include="ArithmeticsOperators.cs" />
     <Compile Include="BooleanOperators.cs" />
-    <Compile Include="BooleanOperatorsMutated.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GiftAidCalculator.cs" />
+    <Compile Include="SimpleIf.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -13,7 +13,7 @@ namespace MutationTalk.Mutated.Test
         [Test]
         public void IsAGreatherThanB_WhereTwoNumbers_ReturnTrue()
         {
-            var booleanOperators = new BooleanOperatorsMutated();
+            var booleanOperators = new BooleanOperators();
 
             var result = booleanOperators.IsAGreatherThanB(2, 1);
 
@@ -23,7 +23,7 @@ namespace MutationTalk.Mutated.Test
         [Test]
         public void IsALessThanB_WhereTwoNumbers_ReturnTrue()
         {
-            var booleanOperators = new BooleanOperatorsMutated();
+            var booleanOperators = new BooleanOperators();
 
             var result = booleanOperators.IsALessThanB(1, 2);
 
@@ -33,7 +33,7 @@ namespace MutationTalk.Mutated.Test
         [Test]
         public void AND_WhereToBooleans_ReturnTrue()
         {
-            var booleanOperators = new BooleanOperatorsMutated();
+            var booleanOperators = new BooleanOperators();
 
             var result = booleanOperators.AND(true, true);
 
@@ -43,7 +43,7 @@ namespace MutationTalk.Mutated.Test
         [Test]
         public void OR_WhereToNumbers_ReturnTrue()
         {
-            var booleanOperators = new BooleanOperatorsMutated();
+            var booleanOperators = new BooleanOperators();
 
             var result = booleanOperators.OR(true, false);
 
@@ -53,7 +53,7 @@ namespace MutationTalk.Mutated.Test
         [Test]
         public void XOR_WhereToNumbers_ReturnTrue()
         {
-            var booleanOperators = new BooleanOperatorsMutated();
+            var booleanOperators = new BooleanOperators();
 
             var result = booleanOperators.XOR(true, false);
 
@@ -63,7 +63,7 @@ namespace MutationTalk.Mutated.Test
         [Test]
         public void Equality_WhereToNumbers_ReturnTrue()
         {
-            var booleanOperators = new BooleanOperatorsMutated();
+            var booleanOperators = new BooleanOperators();
 
             var result = booleanOperators.Equality(true, true);
 
